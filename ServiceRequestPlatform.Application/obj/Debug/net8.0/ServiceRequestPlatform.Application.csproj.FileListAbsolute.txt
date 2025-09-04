@@ -1,0 +1,15 @@
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\bin\Debug\net8.0\ServiceRequestPlatform.Application.deps.json
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\bin\Debug\net8.0\ServiceRequestPlatform.Application.dll
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\bin\Debug\net8.0\ServiceRequestPlatform.Application.pdb
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\bin\Debug\net8.0\ServiceRequestPlatform.Domain.dll
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\bin\Debug\net8.0\ServiceRequestPlatform.Domain.pdb
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ServiceRequestPlatform.Application.csproj.AssemblyReference.cache
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ServiceRequestPlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ServiceRequestPlatform.Application.AssemblyInfoInputs.cache
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ServiceRequestPlatform.Application.AssemblyInfo.cs
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ServiceRequestPlatform.Application.csproj.CoreCompileInputs.cache
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ServiceR.5C5A4AD6.Up2Date
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ServiceRequestPlatform.Application.dll
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\refint\ServiceRequestPlatform.Application.dll
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ServiceRequestPlatform.Application.pdb
+C:\Users\IT\source\repos\ServiceRequestPlatform.Application\obj\Debug\net8.0\ref\ServiceRequestPlatform.Application.dll
