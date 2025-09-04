@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRequestPlatform.API", "ServiceRequestPlatform.API.csproj", "{7A4B7CAD-F3D8-4728-915D-780BC212DF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRequestPlatform.Domain", "..\ServiceRequestPlatform.Domain\ServiceRequestPlatform.Domain.csproj", "{90C6020C-247B-4DB5-8CEA-D65DABF36E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRequestPlatform.Application", "..\ServiceRequestPlatform.Application\ServiceRequestPlatform.Application.csproj", "{64902CAB-5222-4A88-8D78-B90B7AC5F645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRequestPlatform.Infrastructure", "..\ServiceRequestPlatform.Infrastructure\ServiceRequestPlatform.Infrastructure.csproj", "{8279DAEA-60E5-4E02-82C7-0FC29389FE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRequestPlatform.Tests", "..\ServiceRequestPlatform.Tests\ServiceRequestPlatform.Tests.csproj", "{BAEAEF38-29CA-4076-859F-5D46FA310EC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A4B7CAD-F3D8-4728-915D-780BC212DF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4B7CAD-F3D8-4728-915D-780BC212DF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4B7CAD-F3D8-4728-915D-780BC212DF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4B7CAD-F3D8-4728-915D-780BC212DF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C6020C-247B-4DB5-8CEA-D65DABF36E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C6020C-247B-4DB5-8CEA-D65DABF36E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C6020C-247B-4DB5-8CEA-D65DABF36E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C6020C-247B-4DB5-8CEA-D65DABF36E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64902CAB-5222-4A88-8D78-B90B7AC5F645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64902CAB-5222-4A88-8D78-B90B7AC5F645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64902CAB-5222-4A88-8D78-B90B7AC5F645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64902CAB-5222-4A88-8D78-B90B7AC5F645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8279DAEA-60E5-4E02-82C7-0FC29389FE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8279DAEA-60E5-4E02-82C7-0FC29389FE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8279DAEA-60E5-4E02-82C7-0FC29389FE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8279DAEA-60E5-4E02-82C7-0FC29389FE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEAEF38-29CA-4076-859F-5D46FA310EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEAEF38-29CA-4076-859F-5D46FA310EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEAEF38-29CA-4076-859F-5D46FA310EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEAEF38-29CA-4076-859F-5D46FA310EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2735210B-0C2A-4E18-B714-C12A7AC950D2}
+	EndGlobalSection
+EndGlobal
