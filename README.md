@@ -108,4 +108,4 @@ Real-world repository & service pattern with EF Core
 
 Scalable design principles used in enterprise systems
 
-It demonstrates end-to-end backend development skills directly relevant for a .NET Developer role.
+It demonstrates end-to-end backend development skills directly relevant for a .NET Developer .
