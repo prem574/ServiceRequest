@@ -21,8 +21,11 @@ It follows Clean Architecture principles, ensuring scalability, maintainability,
 🏗️ Solution Structure
 ServiceRequestPlatform.sln
 │── ServiceRequestPlatform.API          → Controllers, Swagger, Middleware
+
 │── ServiceRequestPlatform.Application  → Services, DTOs, Validators
+
 │── ServiceRequestPlatform.Domain       → Entities, Enums, Repository Interfaces
+
 │── ServiceRequestPlatform.Infrastructure → DbContext, EF Core Repositories, Migrations
 
 🔧 Tech Stack
