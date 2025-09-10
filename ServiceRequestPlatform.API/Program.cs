@@ -13,13 +13,13 @@ using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+//  services to the container
 builder.Services.AddControllers();
 
 // Register FluentValidation validators (v12 style)
 builder.Services.AddValidatorsFromAssemblyContaining<CustomerDtoValidator>();
 
-// Add FluentValidation to ASP.NET Core
+//  FluentValidation to ASP.NET Core
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddFluentValidationClientsideAdapters();
 
@@ -29,13 +29,13 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
     options.SuppressModelStateInvalidFilter = false;
 });
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new() { Title = "Service Request Platform API", Version = "v1" });
 
-    // Add JWT Authentication to Swagger
+    //  JWT Authentication to Swagger
     c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
         Description = "JWT Authorization header using the Bearer scheme. Enter 'Bearer' [space] and then your token in the text input below.",
@@ -72,7 +72,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Add DbContext
+//  DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -93,11 +93,11 @@ builder.Services.AddAuthentication(options =>
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
         ValidAudience = builder.Configuration["Jwt:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)),
-        ClockSkew = TimeSpan.Zero, // Remove default 5 minute tolerance
+        ClockSkew = TimeSpan.Zero, 
         RoleClaimType = System.Security.Claims.ClaimTypes.Role
     };
 
-    // Add custom event handlers for debugging (optional)
+    
     options.Events = new JwtBearerEvents
     {
         OnAuthenticationFailed = context =>
@@ -157,7 +157,7 @@ app.UseExceptionHandler(appError =>
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 
-// IMPORTANT: Authentication must come before Authorization
+
 app.UseAuthentication();
 app.UseAuthorization();
 

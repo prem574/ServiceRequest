@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n45fVTPz4uY=",
+  "dgSpecHash": "Pwkbvz0rzPM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Infrastructure\\ServiceRequestPlatform.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Infrastructure\\ServiceRequestPlatform.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IT\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\IT\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

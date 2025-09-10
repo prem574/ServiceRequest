@@ -33,7 +33,7 @@ namespace ServiceRequestPlatform.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] AuthLoginDto dto)
         {
-            // Try Customer
+            //  Customer
             var customer = await _context.Customers.FirstOrDefaultAsync(u => u.Email == dto.Email);
             if (customer != null && _passwordService.VerifyPassword(dto.Password, customer.PasswordHash))
             {
@@ -42,7 +42,7 @@ namespace ServiceRequestPlatform.API.Controllers
             }
 
 
-            // Try Worker
+            //  Worker
             var worker = await _context.Workers.FirstOrDefaultAsync(u => u.Email == dto.Email);
             if (worker != null && _passwordService.VerifyPassword(dto.Password, worker.PasswordHash))
             {
@@ -51,7 +51,7 @@ namespace ServiceRequestPlatform.API.Controllers
             }
 
 
-            // Try Admin
+            //  Admin
             var admin = await _context.Admins.FirstOrDefaultAsync(u => u.Email == dto.Email);
             if (admin != null && _passwordService.VerifyPassword(dto.Password, admin.PasswordHash))
             {

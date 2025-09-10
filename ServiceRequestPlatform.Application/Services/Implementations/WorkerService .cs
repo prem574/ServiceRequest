@@ -118,7 +118,7 @@ namespace ServiceRequestPlatform.Application.Services.Implementations
             if (worker == null)
                 throw new ArgumentException("Worker not found");
 
-            // Check for overlapping slots
+            
             var existingSlots = await _availabilitySlotRepository.GetAvailableSlotsByWorkerIdAsync(dto.WorkerId);
             var hasOverlap = existingSlots.Any(s =>
                 s.AvailableDate.Date == dto.AvailableDate.Date &&

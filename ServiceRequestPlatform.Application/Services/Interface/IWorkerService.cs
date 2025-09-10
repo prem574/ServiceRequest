@@ -10,20 +10,20 @@ namespace ServiceRequestPlatform.Application.Services.Interface
 {
     public interface IWorkerService
     {
-        // FIXED: Changed WorkerRegisterDto to RegisterWorkerDto
+        
         Task<WorkerDto> RegisterAsync(RegisterWorkerDto dto);
 
-        // FIXED: Changed LoginDto to WorkerLoginDto
+       
         Task<WorkerDto> LoginAsync(WorkerLoginDto dto);
 
         Task<IEnumerable<ServiceRequestDto>> GetAssignedRequestsAsync(int workerId);
 
         Task<IEnumerable<AvailabilitySlotDto>> GetAvailabilityAsync(int workerId);
 
-        // FIXED: Changed to use CreateAvailabilitySlotDto
+        
         Task<AvailabilitySlotDto> AddAvailabilityAsync(CreateAvailabilitySlotDto dto);
 
-        // ADDED: Additional worker methods
+       
         Task UpdateAvailabilityAsync(UpdateAvailabilitySlotDto dto);
         Task DeleteAvailabilityAsync(int slotId);
         Task UpdateRequestStatusAsync(UpdateServiceRequestStatusDto dto);

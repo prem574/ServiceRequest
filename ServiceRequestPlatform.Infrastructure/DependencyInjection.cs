@@ -25,8 +25,7 @@ namespace ServiceRequestPlatform.Infrastructure
             services.AddScoped<IRatingRepository, RatingRepository>();
             services.AddScoped<IAdminRepository, AdminRepository>();
 
-            // Infrastructure Services - use Application's IPasswordService
-            //services.AddScoped<IPasswordService, PasswordService>();
+            
 
             return services;
         }

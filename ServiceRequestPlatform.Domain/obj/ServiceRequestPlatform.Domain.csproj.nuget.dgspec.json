@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj": {}
+    "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj": {
+    "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj",
         "projectName": "ServiceRequestPlatform.Domain",
-        "projectPath": "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj",
+        "projectPath": "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj",
         "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Domain\\obj\\",
+        "outputPath": "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Shared Components\\NuGetPackages"

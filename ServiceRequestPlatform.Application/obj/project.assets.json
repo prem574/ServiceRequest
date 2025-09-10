@@ -590,11 +590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Application\\ServiceRequestPlatform.Application.csproj",
+      "projectUniqueName": "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Application\\ServiceRequestPlatform.Application.csproj",
       "projectName": "ServiceRequestPlatform.Application",
-      "projectPath": "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Application\\ServiceRequestPlatform.Application.csproj",
+      "projectPath": "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Application\\ServiceRequestPlatform.Application.csproj",
       "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Application\\obj\\",
+      "outputPath": "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Shared Components\\NuGetPackages"
@@ -616,8 +616,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj": {
-              "projectPath": "C:\\Users\\IT\\source\\repos\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj"
+            "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj": {
+              "projectPath": "C:\\Users\\IT\\source\\repos\\ServiceRequest\\ServiceRequestPlatform.Domain\\ServiceRequestPlatform.Domain.csproj"
             }
           }
         }
